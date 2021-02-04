@@ -8,10 +8,10 @@ void setup() {
 }
 
 void loop() {
-  delay(waitTime);
   digitalWrite(pin_led1, HIGH);
   digitalWrite(pin_led2, LOW);
   delay(waitTime);
   digitalWrite(pin_led1, LOW);
   digitalWrite(pin_led2, HIGH);
+  delay(waitTime);
 }
