@@ -1,8 +1,8 @@
 #define WAIT_TIME = 400
 
-const int red[] = {12, 6}
-const int yellow[] = {10, 4}
-const int green[] = {8, 2}
+const int red[] = {12, 6};
+const int yellow[] = {10, 4};
+const int green[] = {8, 2};
 
 void setup() {
   for(int i = 0; i < sizeof(red); i++)
