@@ -18,4 +18,5 @@ void loop() {
     delay(waitTime);
     digitalWrite(pins[i], LOW);
   }
+  delay(waitTime*2);
 }
