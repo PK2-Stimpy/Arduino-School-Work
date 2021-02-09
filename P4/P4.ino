@@ -1,4 +1,4 @@
-#define WAIT_TIME = 400
+#define WAIT_TIME 400
 
 const int red[] = {12, 6};
 const int yellow[] = {10, 4};
